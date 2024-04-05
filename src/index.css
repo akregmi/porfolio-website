@@ -1,13 +1,44 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+  background-color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navbar container */
+.navbar {
+  background-color: #333; /* Background color */
+  overflow: hidden; /* Clear floats */
+  margin-right: 25%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right; /* Float the links to the left */
+  display: block; /* Make the links block elements */
+  color: #f2f2f2; /* Text color */
+  text-align: center; /* Center-align text */
+  padding: 14px 20px; /* Padding around the links */
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: white; /* Text color on hover */
+  text-decoration: underline;
+  text-decoration-color: #4c98af;
+  text-underline-offset: 10px;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #4c98af; /* Active link background color */
+  color: white; /* Active link text color */
+}
+
+h1{
+  color: #f2f2f2;
 }
