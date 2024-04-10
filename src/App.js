@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './Navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Title from './home';
-import { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './home';
+import About from './Projects';
 
 function App() {
   return (
@@ -10,11 +10,10 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route path="/about">
-              <Title />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
         </div>
       </div>
     </Router>
