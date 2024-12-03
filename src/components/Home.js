@@ -2,7 +2,6 @@ import React from "react";
 import { Skills } from "./consts";
 import styles from '../styles/Homepage.module.css'
 import { Name, Description } from "./consts";
-import DisplayTech from "./DisplayTech";
 
 const HomePage = () => {
   return (
