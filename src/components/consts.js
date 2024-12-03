@@ -21,6 +21,14 @@ export const NavLinks = [
     }
 ]
 
+export const Description = `I'm a passionate software engineer with a focus on utilizing my technical abilities
+          to build user-friendly and intuitive applications, solve complex problems, or 
+          work on projects that inspire me. I'm always eager to learn new concepts, 
+          pick up new skills, and apply my knowledge in meaningful ways. My goal is to craft
+          meaningful experiences through code.`
+
+export const Name = "Aayush"
+
 export const Projects = [
   {
     title: "Drop-in Sports Finder",
@@ -54,6 +62,13 @@ export const Projects = [
       "A script that uses neural networks to identify hand-written numeric digits.",
     github: "https://github.com/akregmi/Handwriting-Recognition",
     tools: ["Machine Learning", "Neural Networks", "Python", "Tensorflow", "Numpy"],
+  },
+  {
+    title: "User API Setup",
+    description:
+      "Store, retrieve, delete and update user information using REST API calls. Documentation for setting up and utilizing the backend service is provided. ",
+    github: "https://github.com/akregmi/thinkon_api",
+    tools: ["Java", "Springboot", "REST APIs"],
   },
 ]
 

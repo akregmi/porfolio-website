@@ -2,6 +2,7 @@ import React from "react";
 import DisplayTech from "./DisplayTech";
 import { FaGithub } from "react-icons/fa";
 import { Projects } from "./consts";
+import styles from '../styles/Projects.module.css'
 
 const ProjectShowcase = () => {
   return (
@@ -10,11 +11,11 @@ const ProjectShowcase = () => {
         My Projects
       </h2>
       <div className="relative overflow-x-auto mx-4">
-        <div className="flex md:justify-center py-4 space-x-4 ">
+        <div className="flex py-4 space-x-4 ">
           {Projects.map((project, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-72 bg-white shadow-lg rounded-lg border border-gray-200 p-4 transform hover:scale-105 transition-transform duration-300"
+              className={`flex-shrink-0 w-72 ${styles.diagonalBackground} shadow-lg rounded-3xl border border-gray-200 p-6 transform hover:scale-105 transition-transform duration-300`}
             >
               {/* Project Title */}
               <h3 className="text-xl font-semibold text-gray-800">

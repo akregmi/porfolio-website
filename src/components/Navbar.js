@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
       <nav className={`flex flex-row items-center justify-between ${styles.paddingX} py-4`}>
-        <div className="text-2xl font-bold">
+        <div>
           <img src={logo} alt="logo" width={50} height={50}/>
         </div>
         <ul className="hidden space-x-8 md:flex">

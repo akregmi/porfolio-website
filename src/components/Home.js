@@ -1,21 +1,19 @@
 import React from "react";
 import { Skills } from "./consts";
 import styles from '../styles/Homepage.module.css'
+import { Name, Description } from "./consts";
+import DisplayTech from "./DisplayTech";
 
 const HomePage = () => {
   return (
     <div className={`${styles.diagonalBackground} min-h-screen flex flex-col justify-center items-center p-6`}>
       <div className="max-w-3xl text-center">
         {/* Intro */}
-        <h1 className="text-5xl font-semibold text-blue-600 mb-4">
-          Hi, I'm Aayush! 👋
+        <h1 className="text-5xl font-semibold text-blue-600 mb-10">
+          Hi, I'm {Name}! 👋
         </h1>
-        <p className="text-lg text-gray-700 mb-6">
-          I'm a passionate software engineer with a focus on utilizing my technical abilities
-          to build user-friendly and intuitive applications, solve complex problems, or just 
-          work on projects that personally excite me. I'm always eager to learn new concepts, 
-          pick up new skills, and apply my knowledge in meaningful ways. My goal is to craft
-          meaningful experiences through code.
+        <p className="text-lg text-gray-700 mb-10">
+          {Description}
         </p>
 
         {/* Skills Section */}
@@ -49,7 +47,7 @@ const HomePage = () => {
         </p>
 
         <a
-          href="mailto:aayush@example.com"
+          href="mailto:akregmi@gmail.com"
           className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-all"
         >
           Contact Me
