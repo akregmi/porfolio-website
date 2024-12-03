@@ -22,7 +22,7 @@ export const NavLinks = [
 ]
 
 export const Description = `I'm a passionate software engineer with a focus on utilizing my technical abilities
-          to build user-friendly and intuitive applications, solve complex problems, or 
+          to build user-friendly and intuitive applications, solve complex problems, and 
           work on projects that inspire me. I'm always eager to learn new concepts, 
           pick up new skills, and apply my knowledge in meaningful ways. My goal is to craft
           meaningful experiences through code.`

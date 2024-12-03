@@ -11,7 +11,7 @@ const Timeline = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-10 px-5">
+    <section id="experience" className="bg-gray-100 py-10 px-5">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">My Timeline</h2>
       <div className="relative max-w-4xl mx-auto">
         {/* Vertical Line */}
@@ -59,7 +59,7 @@ const Timeline = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

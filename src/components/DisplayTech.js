@@ -5,7 +5,7 @@ const DisplayTech = ({ tools }) => {
         tools.map((tech, techIndex) => (
           <span
             key={techIndex}
-            className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full"
+            className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full border border-blue-600"
           >
             {tech}
           </span>
