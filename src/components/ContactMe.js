@@ -6,7 +6,7 @@ function ContactMe() {
   return (
     <div id="contact" className="flex flex-col justify-center items-center bg-gray-100 py-10">
       <h1 className="text-4xl font-bold mb-6 text-gray-800">Contact Me</h1>
-      <p className="text-lg text-gray-600 mb-8">Feel free to reach out through any of the platforms below!</p>
+      <p className="text-lg text-gray-600 mb-8 p-4 text-center">Feel free to reach out through any of the platforms below!</p>
       <div className="flex flex-col space-y-4">
         {/* Github */}
         <a

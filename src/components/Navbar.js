@@ -7,13 +7,12 @@ import logo from '../assets/logo.png'
 const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setMenuOpen(!menuOpen); 
   }
 
   return (
-      <nav className={`fixed top-0 left-0 w-full md:h-20 bg-white flex flex-row items-center justify-between ${styles.paddingX} py-4 shadow-md z-10`}>
+      <nav className={`sticky top-0 left-0 w-full md:h-20 bg-white flex flex-row items-center justify-between ${styles.paddingX} py-2 md:py-4 shadow-md z-10`}>
         <div>
           <a href="/">
             <img src={logo} alt="logo" width={50} height={50}/>
@@ -44,11 +43,14 @@ const Navbar = () => {
             <ul className={`md:hidden flex flex-col items-end top-16 left-0 w-full transition-transform duration-300 ease-in-out ${menuOpen ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
             {NavLinks.map((nav) => (
               <li className="py-2">
-                <a 
-                  href={`#${nav.id}`}
+                <Link
+                  to={nav.id}
+                  smooth={true}
+                  duration={500}
+                  offset={-250}
                   onClick={toggleMenu}>
                     {nav.title}
-                  </a>
+                  </Link>
               </li>
             ))}
           </ul>}

@@ -7,7 +7,7 @@ import Resume from '../assets/AayushRegmi_Resume.pdf'
 
 const HomePage = () => {
   return (
-    <section id="home" className={`${styles.diagonalBackground} min-h-screen flex flex-col justify-center items-center p-6 mt-20`}>
+    <section id="home" className={`${styles.diagonalBackground} min-h-screen flex flex-col justify-center items-center p-6`}>
       <div className="max-w-3xl text-center">
         {/* Intro */}
         <h1 className="text-5xl font-semibold text-blue-600 mb-10">
