@@ -11,10 +11,11 @@ const HomePage = () => {
           Hi, I'm Aayush! 👋
         </h1>
         <p className="text-lg text-gray-700 mb-6">
-          I'm a passionate software engineer with a focus on building engaging,
-          intuitive, and performant web and mobile applications. I specialize in
-          full-stack development, including mobile apps, REST APIs, and cloud
-          services. My goal is to craft meaningful experiences through code.
+          I'm a passionate software engineer with a focus on utilizing my technical abilities
+          to build user-friendly and intuitive applications, solve complex problems, or just 
+          work on projects that personally excite me. I'm always eager to learn new concepts, 
+          pick up new skills, and apply my knowledge in meaningful ways. My goal is to craft
+          meaningful experiences through code.
         </p>
 
         {/* Skills Section */}
