@@ -1,0 +1,4 @@
+.diagonalBackground {
+  background: linear-gradient(135deg, rgb(243 244 246) 50%, white 50%);
+  min-height: 100vh;
+}
