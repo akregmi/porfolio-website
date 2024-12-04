@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-      <nav className={`sticky top-0 left-0 w-full md:h-20 bg-white flex flex-row items-center justify-between ${styles.paddingX} py-2 md:py-4 shadow-md z-10`}>
+      <nav className={`sticky top-0 left-0 w-full md:h-20 bg-white flex flex-row items-center justify-between ${styles.paddingX} py-1 shadow-md z-10`}>
         <div>
           <a href="/">
             <img src={logo} alt="logo" width={50} height={50}/>
