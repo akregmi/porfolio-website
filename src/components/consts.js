@@ -4,8 +4,8 @@ export const NavLinks = [
         title: 'Home',
     },
     {
-        id: 'about',
-        title: 'About',
+        id: 'skills',
+        title: 'Skills',
     },
     {
         id: 'experience',
@@ -24,7 +24,7 @@ export const NavLinks = [
 export const Description = `I'm a passionate software engineer with a focus on utilizing my technical abilities
           to build user-friendly and intuitive applications, solve complex problems, and 
           work on projects that inspire me. I'm always eager to learn new concepts, 
-          pick up new skills, and apply my knowledge in meaningful ways. My goal is to craft
+          pick up new skills, and apply my knowledge in transformative ways. My goal is to craft
           meaningful experiences through code.`
 
 export const Name = "Aayush"
@@ -118,11 +118,15 @@ export const Experience = [
 export const Skills = [
   {
     category: "Front-End Development",
-    items: ["React", 'Angular', "HTML5", "CSS3", "JavaScript", "TailwindCSS"]
+    items: ["React", 'Angular', "JavaScript", "TailwindCSS", "HTML5", "CSS3"]
   },
   {
     category: "Back-End Development",
-    items: ["Node.js", "Express.js", "Spring Boot", "PostgreSQL", "MongoDB"]
+    items: ["Node.js", "Express.js", "Spring Boot", "Laravel", "SQL"]
+  },
+  {
+    category: "Database Systems",
+    items: ["mySQL", "PostgreSQL", "MongoDB", "Google Firebase", "Amazon RDS"]
   },
   {
     category: "Mobile Development",
@@ -130,7 +134,7 @@ export const Skills = [
   },
   {
     category: "Cloud Development",
-    items: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Git", "Jenkins"]
+    items: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Github Actions", "Jenkins"]
   },
   {
     category: "Data Analysis",

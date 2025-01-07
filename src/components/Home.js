@@ -13,11 +13,12 @@ const HomePage = () => {
         <h1 className="text-5xl font-semibold text-blue-600 mb-10">
           Hi, I'm {Name}! 👋
         </h1>
-        <section id="about">
-          <p className="text-lg text-gray-700 mb-10">
-            {Description}
-          </p>
+        
+        <p className="text-lg text-gray-700 mb-10">
+          {Description}
+        </p>
 
+        <section id="skills" className="py-10">
         {/* Skills Section */}
           <h2 className="text-2xl font-semibold text-blue-600 mb-4">Skills</h2>
 
