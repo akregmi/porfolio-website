@@ -79,7 +79,7 @@ export const Experience = [
     duration: "2023 - 2024",
     description:
       "Helped develop a web-based stock trading application allowing users to view trends, optimize trading strategies, and execute trades in real time.",
-    tools: ["React", "Node.js", "PostgreSQL", "Python", "AWS", "Jenkins CI/CD"],
+    tools: ["React", "Spring", "PostgreSQL", "Python", "AWS", "Jenkins CI/CD"],
   },
   {
     title: "iOS Developer Intern",
