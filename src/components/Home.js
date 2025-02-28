@@ -2,8 +2,8 @@ import React from "react";
 import { Skills } from "./consts";
 import styles from '../styles/Homepage.module.css'
 import { Name, Description } from "./consts";
-import { CgFileDocument } from "react-icons/cg";
-import Resume from '../assets/AayushRegmi_Resume.pdf'
+//import { CgFileDocument } from "react-icons/cg";
+//import Resume from '../assets/AayushRegmi_Resume.pdf'
 
 const HomePage = () => {
   return (
