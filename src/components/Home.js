@@ -44,12 +44,14 @@ const HomePage = () => {
             ))}
           </div>
         </section>
-
-        {/* Contact CTA */}
+        
+        {/*}
+        
         <p className="text-lg mt-10 text-gray-700 mb-6">
           View my resume to get to know more about me!
         </p>
-
+        
+        
         <a
           href={Resume} without rel="noopener noreferrer" target="_blank"
           className="inline-flex space-x-4 items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-full mb-6 hover:bg-blue-900 transition-all"
@@ -57,6 +59,7 @@ const HomePage = () => {
           <CgFileDocument />
           <span>View Resume</span>
         </a>
+        */}
       </div>
     </section>
   );
